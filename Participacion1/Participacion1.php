@@ -18,10 +18,13 @@
     $valor_dolar = 5;
     $valor_euro = 9;
 
-    $peso_dolar = $valor_peso * 0.05
+    $peso_dolar = $valor_peso * 0.05;
+    $dolar_euro = $valor_dolar * 0.91;
+    $euro_libra = $valor_euro * 0.8682;
+    $peso_euro = $valor_euro * 0.048;
 
-    echo "<p> <b> Ejercicio 2: </b> <br> </p>";
-    echo "<p> base: $base <br> altura: $altura <br> Area: $area <br> Perimetro: $perimetro <br> </p>";
+    echo "<p> <b> Ejercicio 3: </b> <br> </p>";
+    echo "<p> peso a dolar: $peso_dolar <br> dolar a euro: $dolar_euro <br> euro a libra: $euro_libra <br> Peso a euro: $peso_euro <br> </p>";
 
     #Ejercicio 3: calcula imc (peso (kg) / altura(m * m))
 
