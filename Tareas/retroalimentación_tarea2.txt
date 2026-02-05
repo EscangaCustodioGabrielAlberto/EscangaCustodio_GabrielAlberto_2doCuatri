@@ -1,0 +1,3 @@
+- Un muy buen trabajo, el único detalle fue el de las palabras que dejaste ya fijas.
+Sin embargo, fuiste de los pocos que se animó a hacer ciclos para verificar las edades
+mayores, sin utilizar un función. Excelente, sigue con este nivel de programación.

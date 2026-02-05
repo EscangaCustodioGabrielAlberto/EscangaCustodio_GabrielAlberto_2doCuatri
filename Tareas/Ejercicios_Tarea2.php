@@ -10,7 +10,7 @@ $edad_mayor = 0;
 foreach($arreglo_edades as $edad){
     if($edad > $edad_mayor){
         $edad_mayor = $edad;
-}
+    }
 }
 echo("<p>La edad mayor es de $edad_mayor años.</p><br>");
 
@@ -68,7 +68,6 @@ $contador_vocal = 0;
 $arreglo_cadena3 = explode(" ", $cadena3);
 foreach($arreglo_cadena3 as $letra){
     if($letra == "a"){
-        $contador_vocal += 1;
     }else if($letra == "e"){
         $contador_vocal += 1;
     }else if($letra == "i"){
