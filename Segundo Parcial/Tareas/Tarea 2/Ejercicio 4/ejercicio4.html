@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <h1>Ejercicio 4</h1>
+    <hr>
+    <h2>TMB</h2>
+    <form action="ejercicio4.php" method="post">
+        <label>Nombre: </label>
+        <input type="text" name="nombre">
+        <br>
+        <label>Sexo: </label>
+        <select name="sexo">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select>
+        <br>
+        <label>Peso (En Kilogramos): </label>
+        <input type="number" name="peso">
+        <br>
+        <label>Altura (En Centimetros): </label>
+        <input type="number" name="altura">
+        <br>
+        <label>Edad (En años): </label>
+        <input type="number" name="edad">
+        <br>
+        <label>Nivel de actividad fisica: </label>
+        <select name="actividad">
+            <option value="1.2">Sedentario (Poco o nada de ejercicio)</option>
+            <option value="1.375">Ligero (Ejercicio 1 a 3 días/semana)</option>
+            <option value="1.55">Moderado (Ejercicio 3 a 5 días/semana)</option>
+            <option value="1.725">Activo (Ejercicio 6 a 7 días/semana)</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
